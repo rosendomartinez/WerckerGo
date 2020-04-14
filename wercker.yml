@@ -1,7 +1,7 @@
 build:
-  box: alpine
-  docker: true
-  steps:
+    box: alpine
+    docker: true
+    steps:
     - script:
         name: Install docker
         code: apk --no-cache add docker
@@ -65,4 +65,3 @@ build:
         code: |
           docker login -u $USERNAME -p $PASSWORD
           docker push docker.io/$USERNAME/direct-docker-golang:latest
-
