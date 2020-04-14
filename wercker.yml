@@ -65,3 +65,4 @@ build:
         code: |
           docker login -u $USERNAME -p $PASSWORD
           docker push docker.io/$USERNAME/direct-docker-golang:latest
+
