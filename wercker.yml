@@ -1,5 +1,5 @@
 build:
-	box: alpine
+  box: alpine
     docker: true
     steps:
       - script:
